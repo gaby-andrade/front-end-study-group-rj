@@ -37,14 +37,9 @@ nav img {
   font-size: 0.9rem;
   font-family: 'arial', sans-serif;
   padding: 0.5rem;
-  border-color: transparent;
+  border: 1px transparent solid;
 }
 
 .menu li a:hover {
   border: 1px solid #FECE1A;
-}
-
-.menu li a:link {
-  border-width: 1px;
-  border-style: solid;
 }
