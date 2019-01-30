@@ -1,18 +1,43 @@
+/* Menu */
+
 nav {
-  padding: 0px 60px 0px 60px;
+  padding: 8px 80px 8px 80px;
   display: flex;
+  background-color: #000;
   justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav img {
+  height: 35px;
 }
 
 .menu {
-  /* background-color: #000; */
   display: flex;
-  /* flex-direction: row; */
-  /* justify-content: flex-end; */
 }
 
-
 .menu li {
-  margin: 0px 8px;
+  margin: 0px 16px;
   list-style-type: none;
+}
+
+.menu li a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  padding: 8px;
+  border-color: transparent;
+}
+
+.menu li a:hover {
+  border: 1px solid #FECE1A;
+}
+
+.menu li a:link {
+  border-width: 1px;
+  border-style: solid;
 }
