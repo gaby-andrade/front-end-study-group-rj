@@ -15,6 +15,8 @@ nav {
   align-items: center;
   position: fixed;
   width: 100%;
+  height: 50px;
+  top: 0;
   box-sizing: border-box;
 }
 
@@ -42,4 +44,40 @@ nav img {
 
 .menu li a:hover {
   border: 1px solid #FECE1A;
+}
+
+/* Slider */
+
+#home {
+  /* margin-top: 50px; */
+  height: 600px;
+  /* position: relative; */
+}
+
+.slider {
+  /*position: absolute;
+  top: 10%;
+  width: 100%;
+  height: 600px; */
+
+  /* top: 0; */
+  /* position: absolute; */
+  /* background-image: url(../images/rosa.png); */
+  top: 50px;
+  position: absolute;
+  background-color: #fb1655;
+  height: 600px;
+  width: 100%;
+  /* opacity: 0.5; */
+}
+
+.slider--item {
+  background-image: url(../images/Slider.png);
+  height: 600px;
+  opacity: 0.5;
+}
+
+.slider-text {
+  display: flex;
+  align-items: center;
 }
